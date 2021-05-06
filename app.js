@@ -38,4 +38,7 @@ app.locals.title = 'Express - Generated with IronGenerator';
 const index = require('./routes/index');
 app.use('/', index);
 
+
+
+console.log("http://localhost:" + process.env.PORT);
 module.exports = app;
